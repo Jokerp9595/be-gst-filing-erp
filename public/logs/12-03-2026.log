@@ -1,0 +1,63 @@
+{
+  "err": "Error: Unknown database 'accounting_erp'",
+  "level": "error",
+  "message": "DB connection default error",
+  "timestamp": "08:46:09"
+}
+{
+  "err": "Error: Unknown database 'accounting_erp'",
+  "level": "error",
+  "message": "DB connection default error",
+  "timestamp": "08:47:31"
+}
+{
+  "err": "Error: Unknown database 'accounting_erp'",
+  "level": "error",
+  "message": "DB connection default error",
+  "timestamp": "08:47:42"
+}
+{
+  "err": "Error: Unknown database 'accounting_erp'",
+  "level": "error",
+  "message": "DB connection default error",
+  "timestamp": "08:47:56"
+}
+{
+  "err": "Error: Unknown database 'accounting_erp'",
+  "level": "error",
+  "message": "DB connection default error",
+  "timestamp": "08:49:10"
+}
+{
+  "err": "Error: Unknown database 'accounting_erp'",
+  "level": "error",
+  "message": "DB connection default error",
+  "timestamp": "08:50:07"
+}
+{
+  "body": {
+    "action": "LOGIN",
+    "mobile": "9876543210",
+    "password": "R"
+  },
+  "error": {
+    "code": "ER_BAD_DB_ERROR",
+    "errno": 1049,
+    "sqlMessage": "Unknown database 'accounting_erp'",
+    "sqlState": "42000"
+  },
+  "level": "error",
+  "message": "UserModel tblUserCRUD check",
+  "timestamp": "10:09:21"
+}
+{
+  "body": {
+    "action": "LOGIN",
+    "mobile": "9876543210",
+    "password": "R"
+  },
+  "error": "Unknown database 'accounting_erp'",
+  "level": "error",
+  "message": "AuthenticationController login",
+  "timestamp": "10:09:21"
+}
