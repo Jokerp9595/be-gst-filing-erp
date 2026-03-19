@@ -3,6 +3,7 @@ const tags = {
     upload: 'Upload',
     authentication: 'Authentication',
     user: 'User',
+    financialYear: 'Financial Year'
 };
 
 export default { ...tags };

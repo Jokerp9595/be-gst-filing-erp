@@ -19,6 +19,7 @@ const _1 = require("./");
 const swagger_document_1 = require("../swagger-document");
 const authentication_route_1 = __importDefault(require("../app/routes/authentication.route"));
 const user_route_1 = __importDefault(require("../app/routes/user.route"));
+const financial_years_route_1 = __importDefault(require("../app/routes/financial-years.route"));
 /*************** ROUTES ***************/
 const expressConfig = () => {
     const app = (0, express_1.default)();
@@ -107,6 +108,7 @@ const expressConfig = () => {
     ****************************/
     (0, authentication_route_1.default)(app, express_1.default);
     (0, user_route_1.default)(app, express_1.default);
+    (0, financial_years_route_1.default)(app, express_1.default);
     /****************************
      STATIC FILES
     ****************************/

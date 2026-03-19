@@ -2,6 +2,7 @@ import { basicInfo } from './basic-info';
 import { servers } from './servers';
 import User from './user';
 import authentication from './authentication';
+import financialYear from './financial-years';
 
 export const swaggerDocument = {
     ...basicInfo,
@@ -17,6 +18,7 @@ export const swaggerDocument = {
         schemas: {
             ...User.schemas,
             ...authentication.schemas,
+            ...financialYear.schemas,
             error: {
                 type: 'object',
                 properties: {
@@ -35,10 +37,12 @@ export const swaggerDocument = {
     },
     tags: [
         ...User.tags,
-        ...authentication.tags
+        ...authentication.tags,
+        ...financialYear.tags
     ],
     paths: {
         ...User.paths,
-        ...authentication.paths
+        ...authentication.paths,
+        ...financialYear.paths
     }
 };

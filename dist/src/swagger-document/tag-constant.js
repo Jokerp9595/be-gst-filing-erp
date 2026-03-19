@@ -5,6 +5,7 @@ const tags = {
     upload: 'Upload',
     authentication: 'Authentication',
     user: 'User',
+    financialYear: 'Financial Year'
 };
 exports.default = Object.assign({}, tags);
 //# sourceMappingURL=tag-constant.js.map

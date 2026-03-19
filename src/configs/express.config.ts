@@ -12,10 +12,9 @@ import helmet from "helmet";
 import swaggerUi from "swagger-ui-express";
 import { Global } from "./";
 import { swaggerDocument } from "../swagger-document";
-import { Request, Response } from "express-serve-static-core";
-import { ParsedQs } from "qs";
 import authenticationRoute from "../app/routes/authentication.route";
 import userRoute from "../app/routes/user.route";
+import financialYearsRoute from "../app/routes/financial-years.route";
 
 /*************** ROUTES ***************/
 
@@ -122,6 +121,7 @@ export const expressConfig = () => {
     ****************************/
     authenticationRoute(app, express);
     userRoute(app, express);
+    financialYearsRoute(app, express);
 
     /****************************
      STATIC FILES
